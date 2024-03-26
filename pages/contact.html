@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Contact avec Bootstrap</title>
+    <!-- Ajout du lien CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Mon Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/galerie.html">Galerie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">Contact</a>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenu de la page -->
+    <div class="container my-5">
+        <h1 class="text-center my-4">Contactez-nous</h1>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="nom">Nom</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Entrez votre email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="3"
+                            placeholder="Entrez votre message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    Protection de vos données personnelles :
+
+    Nous accordons une grande importance à la protection de vos données personnelles. Lorsque vous utilisez notre
+    formulaire web, nous collectons et traitons certaines informations vous concernant. Il est essentiel pour nous de
+    vous expliquer comment nous utilisons ces données et de garantir que nous les traitons de manière transparente et
+    conforme à la législation en vigueur, y compris le Règlement Général sur la Protection des Données (RGPD).
+
+    Quelles données collectons-nous et pourquoi :
+
+    Les données que nous collectons à partir de ce formulaire peuvent inclure votre nom, votre adresse e-mail, votre
+    numéro de téléphone, ou toute autre information que vous choisissez de nous fournir. Nous utilisons ces informations
+    dans le but spécifique pour lequel vous avez rempli le formulaire, tel que répondre à vos demandes, vous fournir des
+    informations sur nos produits ou services, ou pour d'autres communications liées à votre demande.
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container">
+            <span class="text-muted">© 2024 Mon Site Web. Tous droits réservés.</span>
+        </div>
+    </footer>
+
+    <!-- Ajout du lien JavaScript de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
